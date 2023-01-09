@@ -1,0 +1,100 @@
+
+
+body{
+    --cor-primaria: #212529;
+    background-color: var(--cor-primaria);
+    
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 50px;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    --color-grey: #DEE2E6;
+    color: var(--color-grey);
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    max-width: 70%;
+    width: 800px;
+}
+li h3{
+color: #DEE2E6;
+font-family: 'IBM Plex Sans', sans-serif;
+align-items: center;
+margin: 0px;
+display: flex;
+
+}
+
+li{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    background-color: #343A40;
+    border-radius: 8px;
+    height: 70px;
+}
+
+li img{
+    margin-right: 10px;
+}
+ 
+button{
+    width: 50px;
+    height: 20px;
+}
+
+header{
+    width: 700px;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+input{
+    max-width: 100px;
+    max-height: 50px;
+    width: 100px;
+    height: 38px;
+    margin-right: 10px;
+    background-color: #343A40;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+button{
+   height: 40px;
+   width: 40px; 
+   background-color: #4C6EF5;
+   border-style: none;
+   border-radius: 5px;
+}
+
+.img-pesquisa{
+    width: 10px;
+    height: 10px;
+}
